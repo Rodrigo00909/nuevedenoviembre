@@ -20,7 +20,7 @@ const GetStarted = () => (
         variants={planetVariants('left')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
           src="/foto00.jpg"
           alt="Moni y Rodri 2017"
           className="w-[70%] h-[auto] object-contain rounded-full"

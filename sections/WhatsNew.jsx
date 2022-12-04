@@ -33,7 +33,7 @@ const WhatsNew = () => (
         variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
           src="/foto06.jpg"
           alt="Moni y Rodri 2022"
           className="w-[70%] h-[auto] object-contain rounded-full"
@@ -55,7 +55,7 @@ const WhatsNew = () => (
           variants={planetVariants('left')}
           className={`flex-1  flex flex-wrap justify-between ${styles.flexCenter}`}
         >
-          <img
+          <Image
             src="/foto09.jpeg"
             alt="Moni y Rodri Beso"
             className="w-[70%] h-[80%] object-contain rounded-full"
@@ -68,7 +68,7 @@ const WhatsNew = () => (
         variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
           src="/foto04.jpg"
           alt="Moni y Rodri Beso"
           className="w-[70%] h-[80%] object-contain rounded-full"
