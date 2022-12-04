@@ -7,6 +7,7 @@ import styles from '../styles';
 import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
+/* import Link from 'next/link'; */
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
@@ -20,11 +21,14 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| Secciones" textStyles="text-center" />
         <TitleText
-          title={<>Choose the world you want <br className="md:block hidden" /> to explore</>}
+          title={<>Cosas que nos encantan <br className="md:block hidden" /> PD 1: Clickea las imágenes <br className="md:block hidden" /> PD 2: La última imagen mirala cuando hayas visto toda la pág.</>}
           textStyles="text-center"
         />
+        {/* <button>
+          <Link href="#world">IR</Link>
+        </button> */}
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard

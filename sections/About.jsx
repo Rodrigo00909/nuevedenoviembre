@@ -16,25 +16,22 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| El motivo de esta web" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
+        Su objetivo es principalmente{' '}
+        <span className="font-extrabold text-white">sacarte una sonrisa.</span> Pensaba{' '}
+        
+        <span className="font-extrabold text-white">recopilar</span> algunas cosas en una página web. Uno de tus hobbies siempre fue dibujar,
+        y me lo demostraste haciendome varios dibujos hermosos. Yo quiero mostrarte mi especialidad también... y es la informática,
+        la programación web y el diseño en sí. Traté de incluirle animaciones, buen diseño, estética y demás cosas que aprendí desde 2017 que empecé a estudiar esto. {' '}
         <span className="font-extrabold text-white">
-          madness of the metaverse
+          Monica
         </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        espero que te guste esta pequeña paginita que hice. Es sólo el comienzo de algo mucho más grande.{' '}
       </motion.p>
 
       <motion.img

@@ -21,17 +21,17 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+            The Walking Dead
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
-          </p>
+          {/* <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+            Rodrigo
+          </p> */}
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
+          Nos gusta a los dos. Tenés un tatuaje sobre eso. Hablamos y nos pasamos tiktoks siempre sobre ello. Me diste EL LUJO de ver los últimos capítulos con vos. 
+          Y me vas a dar el enorme placer de ver las 3 nuevas series con vos. Y Yo no puedo estar más agradecido. Por lo tanto, 
+          ésta sección no podía faltar.
         </p>
       </motion.div>
 
@@ -40,8 +40,8 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/planet-09.png"
-          alt="planet-09"
+          src="/TWD-portada.png"
+          alt="TWD-portada"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
 
@@ -50,8 +50,8 @@ const Feedback = () => (
           className="lg:block hidden absolute -left-[10%] top-[3%]"
         >
           <img
-            src="/stamp.png"
-            alt="stamp"
+            src="/twd-logo-circle.png"
+            alt="twd-logo-circle"
             className="w-[155px] h-[155px] object-contain"
           />
         </motion.div>
