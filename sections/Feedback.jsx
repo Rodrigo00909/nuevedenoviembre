@@ -39,7 +39,7 @@ const Feedback = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="relative flex-1 flex justify-center items-center"
       >
-        <Image
+        <img
           src="/TWD-portada.png"
           alt="TWD-portada"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
@@ -49,7 +49,7 @@ const Feedback = () => (
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
         >
-          <Image
+          <img
             src="/twd-logo-circle.png"
             alt="twd-logo-circle"
             className="w-[155px] h-[155px] object-contain"
